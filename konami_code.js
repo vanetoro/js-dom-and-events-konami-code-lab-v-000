@@ -5,6 +5,7 @@ function init() {
   document.addEventListener('keydown', function(e){
      const key = parseInt(e.detail || e.which);
       if(key === code[i]){
+        console.log(key)
            i++
          }
     if(i === code.length )  {
