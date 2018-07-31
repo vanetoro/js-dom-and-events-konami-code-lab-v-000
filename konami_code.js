@@ -11,9 +11,9 @@ document.addEventListener('keydown', function(e){
       if(key === code[i]){
           i++;
         } else {
-          console.log('I am running')
+          alert('I am running')
           i = 0
         }
 
-        
+
 })
