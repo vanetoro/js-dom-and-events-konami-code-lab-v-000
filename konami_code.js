@@ -6,15 +6,14 @@ document.addEventListener('keydown', function(e){
   const key = parseInt(e.detail || e.which);
   console.log(key, i)
       if(key == code[i]){
-        console.log(key == code[i])
-             i++;
-           
-      if(i === code.length )  {
-            alert('Hurray!')
-          } else {
-            console.log('I am running')
-            i = 0
-          }
+          i++;
+        } else {
+          console.log('I am running')
+          i = 0
         }
+        
+        if(i === code.length )  {
+            alert('Hurray!')
+          } 
 })
 }
