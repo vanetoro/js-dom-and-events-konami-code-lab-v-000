@@ -7,7 +7,6 @@ document.addEventListener('keydown', function init(e){
       if(key === code[i]){
           i++;
         } else {
-          alert('I am running')
           i = 0
         }
 
@@ -15,4 +14,3 @@ document.addEventListener('keydown', function init(e){
             alert('Hurray!')
           }
 })
-
