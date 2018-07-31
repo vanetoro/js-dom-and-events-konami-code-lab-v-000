@@ -8,24 +8,22 @@ function init() {
 
       document.addEventListener('keydown', function(e){
           const key =parseInt(e.detail || e.which);
+          if(key === code[i]){
+              i++;
+            } else {
+              i = 0
+            }
+            
+          if(i === code.length )  {
+              alert('Hurray!')
+              }
+          
       })
-
 }
 
-  function init(){
 
-  document.body.addEventListener('keydown', function(e){
-  
-    console.log(key)
-        if(key === code[i]){
-            i++;
-          }
-        if(i === code.length )  {
-            alert('Hurray!')
-            }
-          }
-          else {
-              i = 0
+
+
 
 })
 }
