@@ -20,7 +20,7 @@ document.addEventListener('keydown', function(e){
   console.log(key, i)
       if(key == code[i]){
         console.log(key == code[i])
-             i++
+             i+=1
            }
       if(i === code.length )  {
           alert('Hurray!')
