@@ -1,5 +1,6 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 let i = 0;
+document.addEventListener('keydown', init)
   function init(e){
     console.log()
     const key = e.detail || e.which;
@@ -14,4 +15,3 @@ let i = 0;
             }
 
 }
-document.addEventListener('keydown', init)
