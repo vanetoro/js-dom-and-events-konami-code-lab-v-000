@@ -5,7 +5,7 @@ function init() {
 document.addEventListener('keydown', function(e){
   const key = parseInt(e.detail || e.which);
   // console.log(key, i)
-      if(key == code[i]){
+      if(key === code[i]){
           i++;
         } else {
           console.log('I am running')
