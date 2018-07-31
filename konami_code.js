@@ -8,11 +8,11 @@ let i = 0;
     console.log(key)
         if(key === code[i]){
             i++;
-          } else {
-            i = 0
           }
         if(i === code.length )  {
             alert('Hurray!')
+            }else {
+              i = 0
             }
 })
 }
