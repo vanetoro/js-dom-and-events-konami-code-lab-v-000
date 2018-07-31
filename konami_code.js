@@ -8,13 +8,13 @@ document.addEventListener('keydown', function(e){
       if(key == code[i]){
         console.log(key == code[i])
              i++;
-           }
+           
       if(i === code.length )  {
-        
-          alert('Hurray!')
+            alert('Hurray!')
           } else {
             console.log('I am running')
             i = 0
           }
+        }
 })
 }
