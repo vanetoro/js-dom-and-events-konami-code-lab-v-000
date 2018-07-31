@@ -18,5 +18,13 @@ function init() {
 document.addEventListener('keydown', function(e){
   const key = parseInt(e.detail || e.which);
   console.log(key)
+      if(key === code[i]){
+             i++
+           }
+      if(i === code.length )  {
+          alert('Hurray!')
+          } else {
+            i = 0
+          }
 })
 }
