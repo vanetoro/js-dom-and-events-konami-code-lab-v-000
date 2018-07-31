@@ -16,6 +16,7 @@ function init() {
 // })
 
 document.addEventListener('keydown', function(e){
-  console.log(e.which)
+  const key = parseInt(e.detail || e.which);
+  console.log(key)
 }
 }
