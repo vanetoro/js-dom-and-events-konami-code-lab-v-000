@@ -10,7 +10,7 @@ document.addEventListener('keydown', function init(e){
           i = 0
         }
 
-        if(i === code.length-1 )  {
+        if(i === code.length )  {
             alert('Hurray!')
           }
 })
