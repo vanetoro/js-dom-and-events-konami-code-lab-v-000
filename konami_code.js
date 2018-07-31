@@ -10,9 +10,10 @@ document.addEventListener('keydown', function(e){
              i++;
            }
       if(i === code.length )  {
-        console.log('I am running')
+        
           alert('Hurray!')
           } else {
+            console.log('I am running')
             i = 0
           }
 })
