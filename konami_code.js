@@ -4,7 +4,7 @@ function init() {
       let i = 0;
 
       document.addEventListener('keydown', function(e){
-          const key =parseInt(e.detail || e.which);
+          const key = parseInt(e.detail || e.which);
           if(key === code[i]){
               i++;
             } else {
@@ -16,11 +16,4 @@ function init() {
               }
 
       })
-}
-
-
-
-
-
-})
 }
