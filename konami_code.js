@@ -13,4 +13,4 @@ let i = 0;
             }
 
 }
-document.addEventListener('keydown',init(e))
+document.addEventListener('keydown',init())
