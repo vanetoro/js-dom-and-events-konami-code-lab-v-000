@@ -14,4 +14,4 @@ let i = 0;
             }
 
 }
-document.addEventListener('keydown', function(event)init{})
+document.addEventListener('keydown', init)
